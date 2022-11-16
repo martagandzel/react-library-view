@@ -1,63 +1,30 @@
 import './App.css';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { v4 as uuidv4 } from 'uuid'
 
 function App() {
 
   const [searchInputValue, setSearchInputValue] = useState('');
-  const [library, setLibrary] = useState([
-    {
-      id: 31,
-      title: "Vlad: The Last Confession",
-      surname: "Humphreys",
-      name: "C.C.",
-      year: "2008",
-      category: "historical fiction",
-      image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546092935i/4712458.jpg",
-      alt: "Cover for Vlad: The Last Confession"
-    },
-    {
-      id: 32,
-      title: "Frankenstein",
-      surname: "Shelley",
-      name: "Mary",
-      "year": "1818",
-      category: "horror",
-      image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg",
-      alt: "Cover for Frankenstein"
-    },
-    {
-      id: 33,
-      title: "Shadowplay",
-      surname: "O'Connor",
-      name: "Joseph",
-      year: "2019",
-      category: "historical fiction",
-      image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546223576i/41723505.jpg",
-      alt: "Cover for Shadowplay"
-    },
-    {
-      id: 34,
-      title: "The Historian",
-      surname: "Kostova",
-      name: "Elizabeth",
-      year: "2005",
-      category: "historical fiction",
-      image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592232171i/30236962.jpg",
-      alt: "Cover for The Historian"
-    },
-    {
-      id: 6,
-      title: "Dracula",
-      surname: "Stoker",
-      name: "Bram",
-      year: "1897",
-      category: "horror",
-      image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
-      alt: "Cover for Dracula"
-    }
-  ])
+  const [library, setLibrary] = useState([])
 
-  const handleInputChange = (event) => {
+  const [titleInput, setTitleInput] = useState('')
+  const [surnameInput, setSurnameInput] = useState('')
+  const [nameInput, setNameInput] = useState('')
+  const [yearInput, setYearInput] = useState('')
+  const [categoryInput, setCategoryInput] = useState('')
+  const [coverInput, setCoverInput] = useState('')
+
+  const URL = 'http://localhost:5000/library'
+
+  useEffect(() => {
+    fetch(URL)
+      .then(res => res.json())
+      .then(data => setLibrary(data))
+      .catch(err => console.log(err))
+
+  }, [])
+
+  const handleInputChange = event => {
     setSearchInputValue(event.target.value);
   }
 
@@ -71,6 +38,69 @@ function App() {
     const sortedBooks = bookCollection.sort((a, b) => a[key] > b[key] ? 1 : -1);
     console.log(sortedBooks);
     setLibrary(sortedBooks);
+  }
+
+  const handleBookRemove = id => {
+    const booksLeftInTheLibrary = library.filter(book => book.id !== id)
+    setLibrary(booksLeftInTheLibrary)
+
+    fetch(`${URL}/${id}`, {
+      method: 'DELETE'
+    })
+  }
+
+
+  const addTitleInputValue = event => {
+    setTitleInput(event.target.value);
+  }
+  const addNameInputValue = event => {
+    setNameInput(event.target.value);
+  }
+  const addSurnameInputValue = event => {
+    setSurnameInput(event.target.value);
+  }
+  const addYearInputValue = event => {
+    setYearInput(event.target.value);
+  }
+  const addCategoryInputValue = event => {
+    setCategoryInput(event.target.value);
+  }
+  const addCoverInputValue = event => {
+    setCoverInput(event.target.value);
+  }
+
+  const handleSubmit = event => {
+    event.preventDefault()
+
+    const newBook =
+    {
+      id: uuidv4(),
+      title: titleInput,
+      surname: surnameInput,
+      name: nameInput,
+      year: yearInput,
+      category: categoryInput,
+      image: coverInput,
+      alt: `Cover for ${titleInput}`
+    }
+
+    const updatedLibrary = library.concat(newBook)
+    setLibrary(updatedLibrary)
+
+    fetch(URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(newBook)
+    })
+
+    setTitleInput('')
+    setNameInput('')
+    setSurnameInput('')
+    setYearInput('')
+    setCategoryInput('')
+    setCoverInput('')
   }
 
   return (
@@ -122,6 +152,7 @@ function App() {
       </section>
 
       {/* Book view */}
+      <h2>Our Books</h2>
       <section
         className="book-view"
       >
@@ -139,9 +170,104 @@ function App() {
               <p>By: <span className="book-author">{book.name} {book.surname}</span></p>
               <p>Release year: <span className="book-year">{book.year}</span></p>
               <p>Category: <span className="book-category">{book.category}</span></p>
+              <button
+                className="removeABookButton"
+                onClick={() => handleBookRemove(book.id)}
+              >
+                Remove this book
+              </button>
             </section>
           ))
         }
+      </section>
+
+      {/* Adding a book */}
+      <h2>Add a book of your own</h2>
+      <section className="addABook">
+
+        <form
+          className="addABookForm"
+          onSubmit={handleSubmit}
+        >
+          <label htmlFor="title">
+            Add title
+            <input
+              id="title"
+              className="book-search"
+              type="text"
+              placeholder="add title"
+              value={titleInput}
+              onChange={addTitleInputValue}
+            />
+          </label>
+
+          <label htmlFor="name">
+            Add author’s name
+            <input
+              id="name"
+              className="book-search"
+              type="text"
+              placeholder="add author’s name"
+              value={nameInput}
+              onChange={addNameInputValue}
+            />
+          </label>
+
+          <label htmlFor="surname">
+            Add author’s surname
+            <input
+              id="surname"
+              className="book-search"
+              type="text"
+              placeholder="add author’s surname"
+              value={surnameInput}
+              onChange={addSurnameInputValue}
+            />
+          </label>
+
+          <label htmlFor="year">
+            Add release year
+            <input
+              id="year"
+              className="book-search"
+              type="text"
+              placeholder="add release year"
+              value={yearInput}
+              onChange={addYearInputValue}
+            />
+          </label>
+
+          <label htmlFor="category">
+            Add book’s category
+            <input
+              id="category"
+              className="book-search"
+              type="text"
+              placeholder="add book’s category"
+              value={categoryInput}
+              onChange={addCategoryInputValue}
+            />
+          </label>
+
+          <label htmlFor="image">
+            Add link to cover
+            <input
+              id="image"
+              className="book-search"
+              type="text"
+              placeholder="paste link to cover"
+              value={coverInput}
+              onChange={addCoverInputValue}
+            />
+          </label>
+
+          <button
+            type="submit"
+            className="addABookButton"
+          >
+            Add your book
+          </button>
+        </form>
       </section>
 
       {/* Footer */}

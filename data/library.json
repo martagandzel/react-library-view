@@ -1,364 +1,374 @@
 {
-    "library": [
-        {
-            "id": 0,
-            "title": "Night of the Raven, Dawn of the Dove",
-            "surname": "Mehrotra",
-            "name": "Rati",
-            "year": "2022",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642250345i/56226859.jpg",
-            "alt": "Cover for Night of the Raven, Dawn of the Dove"
-        },
-        {
-            "id": 1,
-            "title": "The Hobbit",
-            "surname": "Tolkien",
-            "name": "J.R.R.",
-            "year": "1937",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
-            "alt": "Cover for The Hobbit"
-        },
-        {
-            "id": 2,
-            "title": "The Fellowship of the Ring",
-            "surname": "Tolkien",
-            "name": "J.R.R.",
-            "year": "1954",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654215925i/61215351.jpg",
-            "alt": "Cover for The Fellowship of the Ring"
-        },
-        {
-            "id": 3,
-            "title": "The Two Towers",
-            "surname": "Tolkien",
-            "name": "J.R.R.",
-            "year": "1954",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216149i/61215372.jpg",
-            "alt": "Cover for The Two Towers"
-        },
-        {
-            "id": 4,
-            "title": "The Return of the King",
-            "surname": "Tolkien",
-            "name": "J.R.R.",
-            "year": "1955",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216226i/61215384.jpg",
-            "alt": "Cover for The Return of the King"
-        },
-        {
-            "id": 5,
-            "title": "A Wizard of Earthsea",
-            "surname": "Le Guin",
-            "name": "Ursula K.",
-            "year": "1968",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353424536i/13642.jpg",
-            "alt": "Cover for A Wizard of Earthsea"
-        },
-        {
-            "id": 6,
-            "title": "Dracula",
-            "surname": "Stoker",
-            "name": "Bram",
-            "year": "1897",
-            "category": "horror",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
-            "alt": "Cover for Dracula"
-        },
-        {
-            "id": 7,
-            "title": "The Savage Earth",
-            "surname": "Hylton",
-            "name": "P.T.",
-            "year": "2017",
-            "category": "si-fi",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493565343i/35017051.jpg",
-            "alt": "Cover for The Savage Earth"
-        },
-        {
-            "id": 8,
-            "title": "The Eye of the World",
-            "surname": "Jordan",
-            "name": "Robert",
-            "year": "1990",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905815i/228665.jpg",
-            "alt": "Cover for The Eye of the World"
-        },
-        {
-            "id": 9,
-            "title": "The Great Hunt",
-            "surname": "Jordan",
-            "name": "Robert",
-            "year": "1990",
-            "category": "fantasy",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905799i/233649.jpg",
-            "alt": "Cover for The Great Hunt"
-        },
-        {
-            "id": 10,
-            "title": "Woman in Cabin 10",
-            "surname": "Ware",
-            "name": "Ruth",
-            "year": "2016",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465878007i/28187230.jpg",
-            "alt": "Cover for Woman in Cabin 10"
-        },
-        {
-            "id": 11,
-            "title": "The Hunger Games",
-            "surname": "Collins",
-            "name": "Suzanne",
-            "year": "2008",
-            "category": "si-fi",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg",
-            "alt": "Cover for The Hunger Games"
-        },
-        {
-            "id": 12,
-            "title": "Catching Fire",
-            "surname": "Collins",
-            "name": "Suzanne",
-            "year": "2009",
-            "category": "si-fi",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722941i/6148028.jpg",
-            "alt": "Cover for Catching Fire"
-        },
-        {
-            "id": 13,
-            "title": "Mockingjay",
-            "surname": "Collins",
-            "name": "Suzanne",
-            "year": "2010",
-            "category": "si-fi",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722918i/7260188.jpg",
-            "alt": "Cover for Mockingjay"
-        },
-        {
-            "id": 14,
-            "title": "Someone Else’s Skin",
-            "surname": "Hilary",
-            "name": "Sarah",
-            "year": "2014",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409223715i/21350894.jpg",
-            "alt": "Cover for Someone Else’s Skin"
-        },
-        {
-            "id": 15,
-            "title": "Little Fires Everywhere",
-            "surname": "Ng",
-            "name": "Celeste",
-            "year": "2017",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522684533i/34273236.jpg",
-            "alt": "Cover for Little Fires Everywhere"
-        },
-        {
-            "id": 16,
-            "title": "Death on the Nile",
-            "surname": "Christie",
-            "name": "Agatha",
-            "year": "1937",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486837149i/131359.jpg",
-            "alt": "Cover for Death on the Nile"
-        },
-        {
-            "id": 17,
-            "title": "Murder on the Orient Express",
-            "surname": "Christie",
-            "name": "Agatha",
-            "year": "1934",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486131451i/853510.jpg",
-            "alt": "Cover for Murder on the Orient Express"
-        },
-        {
-            "id": 18,
-            "title": "The Girl Before",
-            "surname": "Delaney",
-            "name": "JP",
-            "year": "2017",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485972587i/28016509.jpg",
-            "alt": "Cover for The Girl Before"
-        },
-        {
-            "id": 19,
-            "title": "Dead Water",
-            "surname": "Cleeves",
-            "name": "Ann",
-            "year": "2013",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347718206i/16009500.jpg",
-            "alt": "Cover for Dead Water"
-        },
-        {
-            "id": 20,
-            "title": "The Moth Catcher",
-            "surname": "Cleeves",
-            "name": "Ann",
-            "year": "2015",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430154889i/25307677.jpg",
-            "alt": "Cover for The Moth Catcher"
-        },
-        {
-            "id": 21,
-            "title": "The Heron's Cry",
-            "surname": "Cleeves",
-            "name": "Ann",
-            "year": "2021",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1623116403i/56269063.jpg",
-            "alt": "Cover for The Heron's Cry"
-        },
-        {
-            "id": 22,
-            "title": "The Body in the Marsh",
-            "surname": "Louth",
-            "name": "Nick",
-            "year": "2017",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1505229479i/36228143.jpg",
-            "alt": "Cover for The Body in the Marsh"
-        },
-        {
-            "id": 23,
-            "title": "Angel Maker",
-            "surname": "Greene",
-            "name": "Morgan",
-            "year": "2021",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611965065i/56882277.jpg",
-            "alt": "Cover for Angel Maker"
-        },
-        {
-            "id": 24,
-            "title": "The Girl on the Train",
-            "surname": "Hawkins",
-            "name": "Paula",
-            "year": "2015",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg",
-            "alt": "Cover for The Girl on the Train"
-        },
-        {
-            "id": 25,
-            "title": "The Blackhouse",
-            "surname": "May",
-            "name": "Peter",
-            "year": "2011",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328052791i/10305247.jpg",
-            "alt": "Cover for The Blackhouse"
-        },
-        {
-            "id": 26,
-            "title": "The Lewis Man",
-            "surname": "May",
-            "name": "Peter",
-            "year": "2011",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328645011i/12782865.jpg",
-            "alt": "Cover for The Lewis Man"
-        },
-        {
-            "id": 27,
-            "title": "The Chessmen",
-            "surname": "May",
-            "name": "Peter",
-            "year": "2012",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348337298i/15832513.jpg",
-            "alt": "Cover for The Chessmen"
-        },
-        {
-            "id": 28,
-            "title": "The Sixth Victim",
-            "surname": "Harris",
-            "name": "Tessa",
-            "year": "2017",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494432304i/32034806.jpg",
-            "alt": "Cover for The Sixth Victim"
-        },
-        {
-            "id": 29,
-            "title": "Rules for Perfect Murders",
-            "surname": "Swanson",
-            "name": "Peter",
-            "year": "2020",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577276302i/49866475.jpg",
-            "alt": "Cover for Rules for Perfect Murders"
-        },
-        {
-            "id": 30,
-            "title": "The Confession",
-            "surname": "Spain",
-            "name": "Jo",
-            "year": "2018",
-            "category": "mystery",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549635418i/34941666.jpg",
-            "alt": "Cover for The Confession"
-        },
-        {
-            "id": 31,
-            "title": "Vlad: The Last Confession",
-            "surname": "Humphreys",
-            "name": "C.C.",
-            "year": "2008",
-            "category": "historical fiction",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546092935i/4712458.jpg",
-            "alt": "Cover for Vlad: The Last Confession"
-        },
-        {
-            "id": 32,
-            "title": "Frankenstein",
-            "surname": "Shelley",
-            "name": "Mary",
-            "year": "1818",
-            "category": "horror",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg",
-            "alt": "Cover for Frankenstein"
-        },
-        {
-            "id": 33,
-            "title": "Shadowplay",
-            "surname": "O'Connor",
-            "name": "Joseph",
-            "year": "2019",
-            "category": "historical fiction",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546223576i/41723505.jpg",
-            "alt": "Cover for Shadowplay"
-        },
-        {
-            "id": 34,
-            "title": "The Historian",
-            "surname": "Kostova",
-            "name": "Elizabeth",
-            "year": "2005",
-            "category": "historical fiction",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592232171i/30236962.jpg",
-            "alt": "Cover for The Historian"
-        },
-        {
-            "id": 35,
-            "title": "The Jane Austen Book Club",
-            "surname": "Fowler",
-            "name": "Karen Joy",
-            "year": "2004",
-            "category": "fiction",
-            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309282966i/2152.jpg",
-            "alt": "Cover for The Jane Austen Book Club"
-        }
-    ]
+  "library": [
+    {
+      "id": 0,
+      "title": "Night of the Raven, Dawn of the Dove",
+      "surname": "Mehrotra",
+      "name": "Rati",
+      "year": "2022",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642250345i/56226859.jpg",
+      "alt": "Cover for Night of the Raven, Dawn of the Dove"
+    },
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "surname": "Tolkien",
+      "name": "J.R.R.",
+      "year": "1937",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "alt": "Cover for The Hobbit"
+    },
+    {
+      "id": 2,
+      "title": "The Fellowship of the Ring",
+      "surname": "Tolkien",
+      "name": "J.R.R.",
+      "year": "1954",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654215925i/61215351.jpg",
+      "alt": "Cover for The Fellowship of the Ring"
+    },
+    {
+      "id": 3,
+      "title": "The Two Towers",
+      "surname": "Tolkien",
+      "name": "J.R.R.",
+      "year": "1954",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216149i/61215372.jpg",
+      "alt": "Cover for The Two Towers"
+    },
+    {
+      "id": 4,
+      "title": "The Return of the King",
+      "surname": "Tolkien",
+      "name": "J.R.R.",
+      "year": "1955",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654216226i/61215384.jpg",
+      "alt": "Cover for The Return of the King"
+    },
+    {
+      "id": 5,
+      "title": "A Wizard of Earthsea",
+      "surname": "Le Guin",
+      "name": "Ursula K.",
+      "year": "1968",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353424536i/13642.jpg",
+      "alt": "Cover for A Wizard of Earthsea"
+    },
+    {
+      "id": 6,
+      "title": "Dracula",
+      "surname": "Stoker",
+      "name": "Bram",
+      "year": "1897",
+      "category": "horror",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+      "alt": "Cover for Dracula"
+    },
+    {
+      "id": 7,
+      "title": "The Savage Earth",
+      "surname": "Hylton",
+      "name": "P.T.",
+      "year": "2017",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1493565343i/35017051.jpg",
+      "alt": "Cover for The Savage Earth"
+    },
+    {
+      "id": 8,
+      "title": "The Eye of the World",
+      "surname": "Jordan",
+      "name": "Robert",
+      "year": "1990",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905815i/228665.jpg",
+      "alt": "Cover for The Eye of the World"
+    },
+    {
+      "id": 9,
+      "title": "The Great Hunt",
+      "surname": "Jordan",
+      "name": "Robert",
+      "year": "1990",
+      "category": "fantasy",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905799i/233649.jpg",
+      "alt": "Cover for The Great Hunt"
+    },
+    {
+      "id": 10,
+      "title": "Woman in Cabin 10",
+      "surname": "Ware",
+      "name": "Ruth",
+      "year": "2016",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465878007i/28187230.jpg",
+      "alt": "Cover for Woman in Cabin 10"
+    },
+    {
+      "id": 11,
+      "title": "The Hunger Games",
+      "surname": "Collins",
+      "name": "Suzanne",
+      "year": "2008",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg",
+      "alt": "Cover for The Hunger Games"
+    },
+    {
+      "id": 12,
+      "title": "Catching Fire",
+      "surname": "Collins",
+      "name": "Suzanne",
+      "year": "2009",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722941i/6148028.jpg",
+      "alt": "Cover for Catching Fire"
+    },
+    {
+      "id": 13,
+      "title": "Mockingjay",
+      "surname": "Collins",
+      "name": "Suzanne",
+      "year": "2010",
+      "category": "si-fi",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722918i/7260188.jpg",
+      "alt": "Cover for Mockingjay"
+    },
+    {
+      "id": 14,
+      "title": "Someone Else’s Skin",
+      "surname": "Hilary",
+      "name": "Sarah",
+      "year": "2014",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409223715i/21350894.jpg",
+      "alt": "Cover for Someone Else’s Skin"
+    },
+    {
+      "id": 15,
+      "title": "Little Fires Everywhere",
+      "surname": "Ng",
+      "name": "Celeste",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522684533i/34273236.jpg",
+      "alt": "Cover for Little Fires Everywhere"
+    },
+    {
+      "id": 16,
+      "title": "Death on the Nile",
+      "surname": "Christie",
+      "name": "Agatha",
+      "year": "1937",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486837149i/131359.jpg",
+      "alt": "Cover for Death on the Nile"
+    },
+    {
+      "id": 17,
+      "title": "Murder on the Orient Express",
+      "surname": "Christie",
+      "name": "Agatha",
+      "year": "1934",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486131451i/853510.jpg",
+      "alt": "Cover for Murder on the Orient Express"
+    },
+    {
+      "id": 18,
+      "title": "The Girl Before",
+      "surname": "Delaney",
+      "name": "JP",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485972587i/28016509.jpg",
+      "alt": "Cover for The Girl Before"
+    },
+    {
+      "id": 19,
+      "title": "Dead Water",
+      "surname": "Cleeves",
+      "name": "Ann",
+      "year": "2013",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347718206i/16009500.jpg",
+      "alt": "Cover for Dead Water"
+    },
+    {
+      "id": 20,
+      "title": "The Moth Catcher",
+      "surname": "Cleeves",
+      "name": "Ann",
+      "year": "2015",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430154889i/25307677.jpg",
+      "alt": "Cover for The Moth Catcher"
+    },
+    {
+      "id": 21,
+      "title": "The Heron's Cry",
+      "surname": "Cleeves",
+      "name": "Ann",
+      "year": "2021",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1623116403i/56269063.jpg",
+      "alt": "Cover for The Heron's Cry"
+    },
+    {
+      "id": 22,
+      "title": "The Body in the Marsh",
+      "surname": "Louth",
+      "name": "Nick",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1505229479i/36228143.jpg",
+      "alt": "Cover for The Body in the Marsh"
+    },
+    {
+      "id": 23,
+      "title": "Angel Maker",
+      "surname": "Greene",
+      "name": "Morgan",
+      "year": "2021",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611965065i/56882277.jpg",
+      "alt": "Cover for Angel Maker"
+    },
+    {
+      "id": 24,
+      "title": "The Girl on the Train",
+      "surname": "Hawkins",
+      "name": "Paula",
+      "year": "2015",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg",
+      "alt": "Cover for The Girl on the Train"
+    },
+    {
+      "id": 25,
+      "title": "The Blackhouse",
+      "surname": "May",
+      "name": "Peter",
+      "year": "2011",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328052791i/10305247.jpg",
+      "alt": "Cover for The Blackhouse"
+    },
+    {
+      "id": 26,
+      "title": "The Lewis Man",
+      "surname": "May",
+      "name": "Peter",
+      "year": "2011",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328645011i/12782865.jpg",
+      "alt": "Cover for The Lewis Man"
+    },
+    {
+      "id": 27,
+      "title": "The Chessmen",
+      "surname": "May",
+      "name": "Peter",
+      "year": "2012",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348337298i/15832513.jpg",
+      "alt": "Cover for The Chessmen"
+    },
+    {
+      "id": 28,
+      "title": "The Sixth Victim",
+      "surname": "Harris",
+      "name": "Tessa",
+      "year": "2017",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1494432304i/32034806.jpg",
+      "alt": "Cover for The Sixth Victim"
+    },
+    {
+      "id": 29,
+      "title": "Rules for Perfect Murders",
+      "surname": "Swanson",
+      "name": "Peter",
+      "year": "2020",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577276302i/49866475.jpg",
+      "alt": "Cover for Rules for Perfect Murders"
+    },
+    {
+      "id": 30,
+      "title": "The Confession",
+      "surname": "Spain",
+      "name": "Jo",
+      "year": "2018",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549635418i/34941666.jpg",
+      "alt": "Cover for The Confession"
+    },
+    {
+      "id": 31,
+      "title": "Vlad: The Last Confession",
+      "surname": "Humphreys",
+      "name": "C.C.",
+      "year": "2008",
+      "category": "historical fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546092935i/4712458.jpg",
+      "alt": "Cover for Vlad: The Last Confession"
+    },
+    {
+      "id": 32,
+      "title": "Frankenstein",
+      "surname": "Shelley",
+      "name": "Mary",
+      "year": "1818",
+      "category": "horror",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg",
+      "alt": "Cover for Frankenstein"
+    },
+    {
+      "id": 33,
+      "title": "Shadowplay",
+      "surname": "O'Connor",
+      "name": "Joseph",
+      "year": "2019",
+      "category": "historical fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546223576i/41723505.jpg",
+      "alt": "Cover for Shadowplay"
+    },
+    {
+      "id": 34,
+      "title": "The Historian",
+      "surname": "Kostova",
+      "name": "Elizabeth",
+      "year": "2005",
+      "category": "historical fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1592232171i/30236962.jpg",
+      "alt": "Cover for The Historian"
+    },
+    {
+      "id": 35,
+      "title": "The Jane Austen Book Club",
+      "surname": "Fowler",
+      "name": "Karen Joy",
+      "year": "2004",
+      "category": "fiction",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309282966i/2152.jpg",
+      "alt": "Cover for The Jane Austen Book Club"
+    },
+    {
+      "id": "859dc530-9f03-4f45-8e80-e6b0a62fbd4e",
+      "title": "The Picture of Dorian Gray",
+      "surname": "Wilde",
+      "name": "Oscar",
+      "year": "1890",
+      "category": "horror",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1464270639i/812769.jpg",
+      "alt": "Cover for The Picture of Dorian Gray"
+    }
+  ]
 }

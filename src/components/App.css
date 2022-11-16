@@ -29,6 +29,14 @@ h1 {
   color: #f2f3f4;
 }
 
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #145a32;
+}
+
 .header p {
   font-style: italic;
   font-weight: 200;
@@ -64,24 +72,39 @@ h1 {
   border: 2px solid #CD174F;
 }
 
-.reset-button {
+.reset-button,
+.addABookButton,
+.removeABookButton {
   font-family: inherit;
   color: #e9f7ef;
   background-color: #CD174F;
-  width: 7rem;
   border: none;
-  padding: .75rem;
+  cursor: pointer;
+}
+
+.reset-button {
+  width: 7rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1.75rem;
-  cursor: pointer;
+  padding: .75rem;
+}
+
+.addABookButton {
+  margin-top: 1.75rem;
+  padding: .75rem;
+}
+
+.removeABookButton {
+  margin-top: 1rem;
+  padding: .5rem;
+  width: 8rem;
 }
 
 .browse-by button {
   font-family: inherit;
   color: #e9f7ef;
   background-color: #145a32;
-  /* background-color: #CD174F; */
   width: 12rem;
   border: none;
   padding: .75rem;
@@ -93,13 +116,20 @@ h1 {
 .book-view {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 
 .book-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
   margin: 2rem;
   font-weight: 200;
+}
+
+.book-item div {
+  flex-grow: 1;
 }
 
 img {
@@ -141,5 +171,20 @@ h2 {
 }
 
 p {
+  font-weight: 200;
+}
+
+.addABook {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.addABookForm {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+label {
   font-weight: 200;
 }

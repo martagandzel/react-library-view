@@ -121,27 +121,23 @@ function App() {
       <section className="browse-by">
         <BrowseByButton
           text="Category"
-          handleBrowseBy={handleBrowseBy}
+          handleBrowseBy={() => handleBrowseBy(library, 'category')}
           bookCollection={library}
-          onClick={() => handleBrowseBy(library, 'category')}
         ></BrowseByButton>
         <BrowseByButton
           text="Author"
-          handleBrowseBy={handleBrowseBy}
+          handleBrowseBy={() => handleBrowseBy(library, 'surname')}
           bookCollection={library}
-          onClick={() => handleBrowseBy(library, 'surname')}
         ></BrowseByButton>
         <BrowseByButton
           text="Title"
-          handleBrowseBy={handleBrowseBy}
+          handleBrowseBy={() => handleBrowseBy(library, 'title')}
           bookCollection={library}
-          onClick={() => handleBrowseBy(library, 'title')}
         ></BrowseByButton>
         <BrowseByButton
           text="Year"
-          handleBrowseBy={handleBrowseBy}
+          handleBrowseBy={() => handleBrowseBy(library, 'year')}
           bookCollection={library}
-          onClick={() => handleBrowseBy(library, 'year')}
         ></BrowseByButton>
       </section>
 

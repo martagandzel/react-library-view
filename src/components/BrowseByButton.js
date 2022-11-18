@@ -4,7 +4,7 @@ function BrowseByButton(props) {
 
     return (
         <button
-            onClick={() => props.handleBrowseBy(props.bookCollection, '')}
+            onClick={() => props.handleBrowseBy()}
         >{props.text}</button>
     )
 }

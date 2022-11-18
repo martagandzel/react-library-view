@@ -35,8 +35,7 @@ function App() {
   }
 
   const handleBrowseBy = (bookCollection, key) => {
-    const sortedBooks = bookCollection.sort((a, b) => a[key] > b[key] ? 1 : -1);
-    console.log(sortedBooks);
+    const sortedBooks = [...bookCollection].sort((a, b) => a[key] > b[key] ? 1 : -1);
     setLibrary(sortedBooks);
   }
 

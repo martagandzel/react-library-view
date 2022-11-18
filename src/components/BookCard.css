@@ -1,0 +1,44 @@
+.book-item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin: 2rem;
+    font-weight: 200;
+}
+
+.book-item div {
+    flex-grow: 1;
+}
+
+img {
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.book-title {
+    color: #145a32;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.book-author {
+    color: #145a32;
+    font-weight: 400;
+}
+
+.book-year,
+.book-category {
+    font-weight: 400;
+    color: #145a32;
+}
+
+.removeABookButton {
+    margin-top: 1rem;
+    padding: .5rem;
+    width: 8rem;
+    font-family: inherit;
+    color: #e9f7ef;
+    background-color: #CD174F;
+    border: none;
+    cursor: pointer;
+}

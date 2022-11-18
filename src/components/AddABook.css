@@ -1,0 +1,27 @@
+.addABookButton {
+    font-family: inherit;
+    color: #e9f7ef;
+    background-color: #CD174F;
+    border: none;
+    cursor: pointer;
+}
+
+.addABookButton {
+    margin-top: 1.75rem;
+    padding: .75rem;
+}
+
+.addABook {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.addABookForm {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+label {
+    font-weight: 200;
+}

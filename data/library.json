@@ -301,16 +301,6 @@
       "alt": "Cover for Rules for Perfect Murders"
     },
     {
-      "id": 30,
-      "title": "The Confession",
-      "surname": "Spain",
-      "name": "Jo",
-      "year": "2018",
-      "category": "mystery",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549635418i/34941666.jpg",
-      "alt": "Cover for The Confession"
-    },
-    {
       "id": 31,
       "title": "Vlad: The Last Confession",
       "surname": "Humphreys",
@@ -369,6 +359,16 @@
       "category": "horror",
       "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1464270639i/812769.jpg",
       "alt": "Cover for The Picture of Dorian Gray"
+    },
+    {
+      "id": "faa08899-746c-43a3-aa37-fc45858ada0b",
+      "title": "Six Wicked Reasons",
+      "surname": "Spain",
+      "name": "Jo",
+      "year": "2020",
+      "category": "mystery",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1563392144i/44154597.jpg",
+      "alt": "Cover for Six Wicked Reasons"
     }
   ]
 }

@@ -1,0 +1,18 @@
+footer {
+    background-color: #145a32;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerHeader,
+.footerParagraph {
+    color: #f2f3f4;
+    font-weight: 200;
+}
+
+.footerParagraph {
+    margin-left: 1rem;
+}

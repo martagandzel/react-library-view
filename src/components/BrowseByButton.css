@@ -1,0 +1,11 @@
+.browse-by button {
+    font-family: inherit;
+    color: #e9f7ef;
+    background-color: #145a32;
+    width: 12rem;
+    border: none;
+    padding: .75rem;
+    margin-right: 1rem;
+    margin-bottom: 1.75rem;
+    cursor: pointer;
+}

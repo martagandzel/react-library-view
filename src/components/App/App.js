@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './Header'
-import Search from './Search';
-import BrowseByButton from './BrowseByButton'
-import BookCard from './BookCard';
-import AddABook from './AddABook';
-import Footer from './Footer';
+import Header from '../Header/Header'
+import Search from '../Search/Search';
+import Button from '../Button/Button'
+import BookCard from '../BookCard/BookCard';
+import AddBookForm from '../AddBookForm/AddBookForm';
+import Footer from '../Footer/Footer';
 import { useState, useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
@@ -119,26 +119,26 @@ function App() {
       />
 
       <section className="browse-by">
-        <BrowseByButton
+        <Button
           text="Category"
           handleBrowseBy={() => handleBrowseBy(library, 'category')}
           bookCollection={library}
-        ></BrowseByButton>
-        <BrowseByButton
+        ></Button>
+        <Button
           text="Author"
           handleBrowseBy={() => handleBrowseBy(library, 'surname')}
           bookCollection={library}
-        ></BrowseByButton>
-        <BrowseByButton
+        ></Button>
+        <Button
           text="Title"
           handleBrowseBy={() => handleBrowseBy(library, 'title')}
           bookCollection={library}
-        ></BrowseByButton>
-        <BrowseByButton
+        ></Button>
+        <Button
           text="Year"
           handleBrowseBy={() => handleBrowseBy(library, 'year')}
           bookCollection={library}
-        ></BrowseByButton>
+        ></Button>
       </section>
 
       <h2>Our Books</h2>
@@ -157,7 +157,7 @@ function App() {
       </section>
 
       <h2>Add a book of your own</h2>
-      <AddABook
+      <AddBookForm
         handleSubmit={handleSubmit}
         titleInput={titleInput}
         addTitleInputValue={addTitleInputValue}

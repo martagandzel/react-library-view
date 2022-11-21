@@ -1,6 +1,6 @@
-import './AddABook.css'
+import './AddBookForm.css'
 
-function AddABook(props) {
+function AddBookForm(props) {
 
     return (
         <section className="addABook">
@@ -92,4 +92,4 @@ function AddABook(props) {
     )
 }
 
-export default AddABook
+export default AddBookForm
